@@ -1,3 +1,13 @@
-body{
-  color:white;
+body {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: Arial, sans-serif; /* Police de caractères */
+    background-color: blue;
+}
+h1 {
+    text-align: center; /* Centre le texte à l'intérieur de l'élément */
+    color:white;
 }
