@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'MaPolice'; /* Nom de la police */
+    src: url('../src/fonts/super_moods/Super\ Moods.ttf') format('truetype'); /* Chemin vers le fichier TTF */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Police par défaut */
+}
+
+.clock {
+    font-size: 100px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3%;
+    font-family: 'MaPolice', sans-serif; /* Utilisation de la police TTF */
+}
