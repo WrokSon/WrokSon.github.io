@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MaPolice'; /* Nom de la police */
-    src: url('../src/fonts/super_moods/Super\ Moods.ttf') format('truetype'); /* Chemin vers le fichier TTF */
+    src: url('Super\ Moods.ttf') format('truetype'); /* Chemin vers le fichier TTF */
 }
 
 body {
